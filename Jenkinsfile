@@ -2,7 +2,7 @@ node{
 //def tomcatWeb = '/apache-tomcat-8.5.53/webapps'
 //def tomcatBin = '/apache-tomcat-8.5.53/bin'
 stage('SCM Checkout'){
-git 'https://github.com/sarthak1208/tomcat-final-deploy.git'
+git 'https://github.com/erpujabaidya/WebProject2.git'
 }
 stage('Compile-Package-Create-war-file'){
 //Get maven home path
