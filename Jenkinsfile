@@ -10,7 +10,7 @@ def mvnHome= tool name: 'Maven 3', type: 'maven'
 sh "${mvnHome}/bin/mvn package"
 }
 stage('Deploy to Tomcat'){
-sh "cp /var/lib/jenkins/workspace/sarthak-tomcat-pipeline/target/*.jar /opt/tomcat/webapps/"
+sh "cp /var/lib/jenkins/workspace/sarthak-tomcat-pipeline/target/*.war /opt/tomcat/webapps/"
 }
 
 }
