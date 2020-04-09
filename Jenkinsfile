@@ -5,7 +5,7 @@
 
     tools{
 
-                maven 'Maven 3'
+                maven 'Maven101'
 
             }
 
