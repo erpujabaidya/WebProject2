@@ -32,7 +32,7 @@
         }
           stage('Deploy - Production') {
             steps {
-                sh "cp /var/lib/jenkins/workspace/VarinderProject/target/*.war /opt/tomcat/webapps/"
+                sh "cp /var/lib/jenkins/workspace/puja_webproject/target/*.war /opt/tomcat/webapps/"
             }
         }
 
