@@ -14,7 +14,7 @@ sh "cp /var/lib/jenkins/workspace/sarthak-tomcat-pipeline/target/*.jar /opt/tomc
 }
 
 }
-}
+
 
     post {
 
@@ -29,3 +29,4 @@ sh "cp /var/lib/jenkins/workspace/sarthak-tomcat-pipeline/target/*.jar /opt/tomc
     }
 
   }
+}
