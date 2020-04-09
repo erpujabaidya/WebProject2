@@ -14,3 +14,18 @@ sh "cp /var/lib/jenkins/workspace/sarthak-tomcat-pipeline/target/*.jar /opt/tomc
 }
 
 }
+}
+
+    post {
+
+    always {
+
+       mail to: 'erpujabaidya@gmail.com',
+
+          subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
+
+          body: "${env.BUILD_URL} has result ${currentBuild.result}"
+
+    }
+
+  }
