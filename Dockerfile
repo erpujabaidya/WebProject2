@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/repo.jar repo.jar
-ENTRYPOINT ["java","-jar","/repo.jar"]
+ADD target/repos.jar repos.jar
+ENTRYPOINT ["java","-jar","/repos.jar"]
